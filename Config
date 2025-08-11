@@ -1,0 +1,16 @@
+#	Configuration file for the Jet-Gio problem
+
+REQUIRES Driver
+REQUIRES physics/Hydro
+REQUIRES physics/Eos
+
+
+PARAMETER p_j	       	 REAL 1.0    # Initial jet pressure
+PARAMETER p_a	       	 REAL 1.0    # Initial ambient pressure
+PARAMETER jet_vel		 REAL 3.0    # jet velocity
+PARAMETER rj 	  		 REAL 1.00   # jet radius
+PARAMETER mjb     		 INTEGER 10  # Index controlling the width of boundary layer
+PARAMETER rho_a   		 REAL 1.00   # Ambient medium density
+PARAMETER rho_j   		 REAL 1.00   # Jet density
+ 
+PARAMETER sim_nsubint		INTEGER	100
